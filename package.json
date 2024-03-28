@@ -1,0 +1,14 @@
+{
+  "name": "tf-idf-nodejs",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "edai-git <edycpp@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && npx tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.3"
+  }
+}
